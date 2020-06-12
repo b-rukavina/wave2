@@ -165,8 +165,8 @@ void driver(const GV& gv, double dt, double c, double T_end,  std::string name)
     i++;
     }
 
-
-    std::cout << "ENERGIJA" << std::endl;
+    // ispis energije i greske u svakom trenutku 
+  /*  std::cout << "ENERGIJA" << std::endl;
     for (i = 1; i<T_end/dt; i++) std::cout << Energy[i] << std::endl;
     double max_error = 0;
     std::cout << "GRESKA" << std::endl;{
@@ -175,7 +175,7 @@ void driver(const GV& gv, double dt, double c, double T_end,  std::string name)
     }
     std::cout << "gfs global size="  << gfs.globalSize() << std::endl;
     std::cout << "maksimalna L2 norma greške="  << max_error << std::endl;
-
+*/
 }
 
 #endif

@@ -34,7 +34,7 @@ int main(int argc, char** argv)
     //2D mreža
   /*  constexpr int dim = 2;  // dimenzija mreže
     using GridType = Dune::UGGrid<dim>;
-    std::unique_ptr<GridType> pgrid{Dune::GmshReader<GridType>::read("domena2.msh", true, false)};
+    std::unique_ptr<GridType> pgrid{Dune::GmshReader<GridType>::read("domena1.msh", true, false)};
     pgrid->globalRefine(refinement);
     using GV =  GridType::LeafGridView;
     const GV &gv = pgrid->leafGridView();*/
