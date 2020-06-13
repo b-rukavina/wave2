@@ -1,5 +1,5 @@
-#ifndef OPERATOR_SIMPLE_ITER_HH
-#define OPERATOR_SIMPLE_ITER_HH
+#ifndef OPERATOR_HH
+#define OPERATOR_HH
 
 #include <dune/geometry/quadraturerules.hh>
 #include <dune/geometry/referenceelements.hh>
